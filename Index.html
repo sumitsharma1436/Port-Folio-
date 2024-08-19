@@ -1,43 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sumit Sharma - Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="bg-primary text-white text-center p-4">
-        <h1 class="animate__animated animate__fadeIn">Sumit Sharma</h1>
-        <p class="animate__animated animate__fadeIn animate__delay-1s">Front-end Developer</p>
-    </header>
-    <section id="about" class="container my-5">
-        <h2 class="text-center">About Me</h2>
-        <p class="text-center">Hello! I am Sumit Sharma, a Front-end Developer skilled in HTML, CSS, Bootstrap, jQuery, JavaScript, React.js, and C++. I have worked on various projects and completed a 6-month internship at Code Better Indore, where I focused on email marketing and small projects.</p>
-    </section>
-    <section id="projects" class="container my-5">
-        <h2 class="text-center">Projects</h2>
-        <div id="projects-container" class="row">
-            <!-- Projects will be added here by JavaScript -->
-        </div>
-    </section>
-    <section id="contact" class="container my-5">
-        <h2 class="text-center">Contact Me</h2>
-        <p class="text-center">Phone: 9340782909</p>
-        <p class="text-center">Email: <a href="mailto:sumitshar2452@gmail.com">sumitshar2452@gmail.com</a></p>
-    </section>
-    <footer class="bg-dark text-white text-center p-3">
-        <p>&copy; 2024 Sumit Sharma</p>
-    </footer>
+<html>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/react@17/umd/react.development.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/react-dom@17/umd/react-dom.development.js"></script>
-    <script src="app.js"></script>
-</body>
-  </html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="index.css" rel="stylesheet"  />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  
+</head>
+
+<body>
+   <header class="header">
+     <a href="#" class="logo">
+       Sumit <span>Sharma</span>
+     </a>
+
+     <i class="bx bx-menu" id="menu-icon"></i>
+     <nav class="navbar">
+       <a href="#" class="active">Home</a>
+       <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+       <a 
+       <a href="#project">Project</a>
+       <a href="#contact">Contact</a>
+     </nav>
+   </header>
+
+  <section class="home" id="home">
+    
+    <div class="home-content">
+      <h1>Hi, It's <span>Sumit</span></h1>
+      <h3 class="text-animation">And I'm a <span></span></h3>
+      <p>I'm a Web Developer who is passionate about creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks and libraries. I am also familiar with various web development tools and technologies, such as Git, GitHub, and Visual Studio Code. I am always looking for new challenges and opportunities to learn and grow as a web developer.</p>
+        <div class="social-icon">
+        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-gmail'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+        <div class="btn-group">
+           <a href="" class="btn">hire</a>
+          <a href="#contact" class="btn"">contact</a>
+        </div>
+   </div>
+        <div class="home-img">
+           <img src="https://images.unsplash.com/photo-1517315003714-a071486bd9ea" />
+        </div>
+  </section>
+
+<saction  class="education" id="education">
+<h2 class="heading">Education</h2>
+   <div class="timeline-item">
       
+<div class="timeline-item">
+   <div class="timeline-dot"></div>
+      <div class="timeline-date">
+         2023-2025
+      </div>
+      <div class="timeline-content">
+        <h3>
+           Master of computer application
+        </h3>
+         <p>
+            Pursuing an MCA at Sage University, Indore, where I am deepening my knowledge in software development, data structures, and advanced programming. The program has enhanced my skills in areas like web development, databases, and automation, preparing me for complex tech challenges.
+         </p>
+      </div>
+</div>
+
+<div class="timeline-item">
+   <div class="timeline-dot"></div>
+      <div class="timeline-date">
+         2023-2024
+      </div>
+      <div class="timeline-content">
+        <h3>
+         Front end Developer 
+        </h3>
+         <p>
+         Certified Front-End Developer with a 6-month internship at Code Better, Indore. Proficient in HTML, CSS, Bootstrap, jQuery, JavaScript, React.js, and DBMS.
+         </p>
+      </div>
+</div>
+      
+  <div class="timeline-item">
+   <div class="timeline-dot"></div>
+      <div class="timeline-date">
+         2020-2023
+      </div>
+      <div class="timeline-content">
+        <h3>
+           bcom computer 
+        </h3>
+         <p>
+            Completed a BCom in Computer Applications from PMB Gujrati College, Indore (2020-2023), where I gained a solid foundation in computer applications alongside commerce. This program equipped me with essential skills in programming, database management, and business analytics.
+         </p>
+      </div>
+  </div>
+
+  <div class="timeline-item">
+     <div class="timeline-dot"></div>
+        <div class="timeline-date">
+           2019-2020
+        </div>
+        <div class="timeline-content">
+          <h3>
+             High school 
+          </h3>
+           <p>
+              Completed my high school education in Commerce with Computer Science from Government Higher Secondary School, Chachai, District Anuppur. This provided me with a foundational understanding of both commerce and computer science principles.
+           </p>
+        </div>
+     </div>
+   </div>
+</saction>
+
+  <section class="skills" id="skills">
+     <h2 class="heading">Skills</h2>
+     <div class="skills-container">
+<div class="skills-box"> 
+   <div class="skills-info">
+      <h4>
+         HTML CSS & Javascript 
+      </h4>
+      <p>
+         I specialize in creating responsive and visually appealing websites using HTML, CSS, and Bootstrap for layout and design. My expertise in JavaScript allows me to incorporate dynamic features that enhance user interaction and functionality. I have successfully developed three live projects that showcase these skills: Campus2Carrer, Whea, and FutureIntern.
+      </p>
+
+      </div>
+</div>
+
+        <div class="skills-box"> 
+   <div class="skills-info">
+      <h4>
+         React js 
+      </h4>
+      <p>
+         I specialize in creating responsive and visually appealing websites using HTML, CSS, and Bootstrap for layout and design. My expertise in JavaScript allows me to incorporate dynamic features that enhance user interaction and functionality. I have also developed the website Kanthariya Technologies using React.js, incorporating animations for a more engaging user experience.
+      </p>
+
+      </div>
+        </div>
+
+        <div class="skills-box"> 
+           <div class="skills-info">
+              <h4>
+                 Advance Tools 
+              </h4>
+              <p>
+                 I have expertise in using various advanced tools that enhance my development process, including Advanced Excel, Power Automate, Git, GitHub, and VS Code. These tools help streamline my workflow, improve version control, and increase productivity in my projects.
+              </p>
+
+              </div>
+        </div>
+
+        <div class="skills-box"> 
+           <div class="skills-info">
+              <h4>
+                 Design Tools 
+              </h4>
+              <p>
+                 I use multiple design tools, including Canva, Figma, and ER Diagram tools, to create visually compelling designs and effective system models.
+              </p>
+
+              </div>
+        </div>
+        
+     </div>
+  </section>
+
+  <section class="project" id="project">
+     <div class="project-box">
+        <h2 class="heading">Project</h2>
+        <div class="warpper">
+           <div class="project-item">
+              <img src="https://images.unsplash.com/photo-1517315003714-a071486bd9ea" />
+                 <h2>
+                    Project 1
+                 </h2>
+              <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 </p>
+              <div class="btn-group">
+                  <a href="#" class="btn">
+                     <i class='bx bx-link-external'>link</i>
+                  </a>
+               </div>
+              </div>
+
+           <div class="project-item">
+              <img src="https://images.unsplash.com/photo-1517315003714-a071486bd9ea" />
+                 <h2>
+                    Project 1
+                 </h2>
+              <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 </p>
+              <div class="btn-group">
+                  <a href="#" class="btn">
+                     <i class='bx bx-link-external'>link</i>
+                  </a>
+               </div>
+           </div>
+           <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1517315003714-a071486bd9ea" />
+                   <h2>
+                      Project 1
+                   </h2>
+                   <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   </p>
+              <div class="btn-group">
+                   <a href="#" class="btn">link
+                   </a>
+              </div>
+                </div>
+           
+           </div>
+      </div> 
+  </section>
+
+  <section class="contact" id="contact">
+     <h2 class="heading">Contact  <span>Me</span></h2>
+     <form action="">
+        <div class="input-gruop">
+           <div class="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+           </div>
+           <div class="input-box">
+              <input type="number" placeholder="Phone Number" />
+              <input type="text" placeholder="Subject" />
+              </div>
+        </div>
+        <div class="input-group2">
+           <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+           <button type="submit" class="btn">Send Message</button>
+           </div>
+     </form>
+  </saction>
+
+     <footer class="footer">
+        <div class="social">
+           <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-gmail'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+        <ul class="list">
+           <li> 
+              <a href="#skills">Skills</a>
+           </li>
+           <li>
+              <a href="#education">Education</a>
+           </li>
+           <li>
+                <a href="#project">Project</a>
+             </li>
+             <li>
+                <a href="#contact">Contact</a>
+             </li>
+        </ul>
+        
+        <p class="copyright">
+           &copy; 2024 Sumit Sharma. All rights reserved.
+        </p>
+     </footer>
+
+     
+  <script src="Index.js"></script>
+</body>
+</html>
