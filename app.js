@@ -1,34 +1,23 @@
-const projects = [
-    { title: 'Kanthariya Technologies', link: 'https://Kanthariyatechnologies.in' },
-    { title: 'Campus2Career', link: 'https://Campus2carrer.in' },
-    { title: 'Whea', link: 'https://Whea.in' },
-    { title: 'Future Intern', link: 'https://Futureintern.in' }
-];
-
-function ProjectCard({ title, link }) {
-    return (
-        <div className="col-md-3 animate__animated animate__fadeIn">
-            <div className="project bg-white shadow-sm p-4">
-                <h3><a href={link} target="_blank" rel="noopener noreferrer">{title}</a></h3>
-            </div>
-        </div>
-    );
+let menuicon=document.querySelector("#menu-icon");
+let navbar=document.querySelector(".navbar");
+let sections=document.querySelectorAll("section");
+let navlink=document.querySelectorAll("header nav a");
+window.onscroll=()=>{
+  sections.forEach(sec=>{
+  let top=window.scrollY;
+  let offset=sec.offsetTop=150;
+  let height =sec.offsetHeight;
+  let id=sec.getAttribute("id");
+  if (top >= offset && top< offset + height) {
+     navlink.forEach(link =>{
+       link.classList.remove("active");
+document.querySelector('header nav a[href*='+id+']').classList.add('active');
+     });
+  }
+  })
 }
 
-function App() {
-    return (
-        <div>
-            <h2 className="text-center">Projects</h2>
-            <div className="row">
-                {projects.map((project, index) => (
-                    <ProjectCard key={index} title={project.title} link={project.link} />
-                ))}
-            </div>
-        </div>
-    );
+menuicon.onclick=()=>{
+  menuicon.classList.toggle('bx-x');
+  navbar.classList.toggle('active');
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    const root = document.getElementById('projects-container');
-    ReactDOM.render(<App />, root);
-});
