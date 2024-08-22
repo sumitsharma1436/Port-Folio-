@@ -678,6 +678,14 @@ width: 30rem;
   .home-img img{
     width: 56vw;
   }
+  .skills-box{
+    background: var(--main-color);
+    height: 200px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    }
   .skills h2{
     margin-bottom: 3rem;
   }
