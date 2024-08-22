@@ -697,6 +697,23 @@ width: 30rem;
     margin: auto;
     align-items:"left";
   }
+  /* Scroll to Top Button Start */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: var(--main-color);
+  padding:8px 5px 8px 5px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  font-size: 25px;
+  border: 3px solid var(--main-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 20px 20px 20px 20px;
+  transition: 0.3s ease-in-out;
+}
 }
 /* Responsive Section End  */
 
