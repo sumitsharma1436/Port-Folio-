@@ -680,7 +680,7 @@ width: 30rem;
   }
   .skills-box{
     background: var(--main-color);
-    height: 550px;
+    height: 250px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -693,12 +693,12 @@ width: 30rem;
     grid-template-columns: repeat(1,1fr);
   }
   .skills-info h4{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
     line-height: 2;
     }
   .skills-info p{
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 600;
     line-height: 1.7;
     max-height: 100px;
