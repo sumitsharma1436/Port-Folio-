@@ -28,20 +28,20 @@ menuicon.onclick = () => {
 
 
 //  Scroll to Top Button 
-document.addEventListener('DOMContentLoaded', function() {
-  var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+// document.addEventListener('DOMContentLoaded', function() {
+//   var scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
   // Show the button when the user scrolls down 20px from the top
-  window.addEventListener('scroll', function() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          scrollToTopBtn.style.display = 'block';
-      } else {
-          scrollToTopBtn.style.display = 'none';
-      }
-  });
+  // window.addEventListener('scroll', function() {
+  //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  //         scrollToTopBtn.style.display = 'block';
+  //     } else {
+  //         scrollToTopBtn.style.display = 'none';
+  //     }
+  // });
 
   // Scroll to top when the button is clicked
-  scrollToTopBtn.addEventListener('click', function() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-});
+//   scrollToTopBtn.addEventListener('click', function() {
+//       window.scrollTo({ top: 0, behavior: 'smooth' });
+//   });
+// });
