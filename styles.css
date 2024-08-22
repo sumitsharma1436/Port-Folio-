@@ -303,6 +303,7 @@ span
 .timeline-item:nth-child(odd){
   padding-right: calc(50% + 30px);
   text-align: left;
+  text-align: right;
 }
 .timeline-item:nth-child(even){
   padding-left: calc(50% + 30px);
@@ -317,7 +318,7 @@ span
   position: absolute;
   left: calc(50% - 8px);
   right: calc(50% - 8px);
-  top: 10px;
+  top: 12px;
 }
 .timeline-date{
   font-size: 20px;
@@ -350,8 +351,6 @@ span
   font-weight: 300;
   line-height: 22px;
   color: white;
-  
-  
 }
 ::-webkit-scrollbar{
   width: 10px;
