@@ -680,7 +680,7 @@ width: 30rem;
   }
   .skills-box{
     background: var(--main-color);
-    height: 250px;
+    height: 200px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -701,7 +701,7 @@ width: 30rem;
     font-size: 0.9rem;
     font-weight: 600;
     line-height: 1.7;
-    max-height: 100px;
+    max-height: 80px;
     margin: auto;
     align-items:"left";
   }
