@@ -705,6 +705,27 @@ width: 30rem;
     margin: auto;
     align-items:"left";
   }
+
+  .footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer ul li a{
+    color: white;
+    border-bottom: 3px solid var(--main-color);
+    transition: 0.3s ease-in-out;
+  }
+  .footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+  }
+  .footer ul li{
+    display: inline-block;
+    padding: 0 10px;
+  }
 }
 /* Responsive Section End  */
 
